@@ -24,7 +24,6 @@ Where
         real_msg_content = message.content
         args = self.collect_args(message)
         pipe_msg = re.sub(r'<@!?'+self.user().id+r'>', '', args.group(1), re.I).strip()
-        print(pipe_msg)
         pipe_name = self.collect_name_args(args.group(2).strip()).group(1)
         pipe = self.public_namespace.find_pipe_by_name(pipe_name, self.public_namespace.pipes)
         if pipe is None:
