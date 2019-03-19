@@ -14,9 +14,9 @@ class PipesTest(testlib.TestCase):
     def setUp(self):
         super().setUp()
         self.pipe_create = self.bot.commands['pipe_create']
-        self.pipe_authorize = self.bot.commands['pipe_authorize']
+        self.pipe_authorize = self.bot.commands['pipe_auth']
         self.pipe_modify = self.bot.commands['pipe_modify']
-        self.pipe_delete = self.bot.commands['pipe_delete']
+        self.pipe_delete = self.bot.commands['pipe_del']
         self.piper = self.bot.commands['piper']
         self.piper.public_namespace.pipes = list()
 
