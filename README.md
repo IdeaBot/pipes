@@ -9,13 +9,13 @@ A pipe can sync all messages in different channels (two-way) or send all message
 This outlines the functionality of each command.
 Use `@Idea help <command name>` to get usage instructions.
 
-* pipe_authorize
+* pipe_auth
 > Authorize a user to modify your pipe.
 
 * pipe_create
 > Create a pipe.
 
-* pipe_delete
+* pipe_del
 > Destroy a pipe.
 
 * pipe_inject

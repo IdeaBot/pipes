@@ -26,7 +26,7 @@ For more info on modifying pipes, do
 
 4. Profit
 
-Also check out help information for `pipe_delete` and `pipe_authorize` commands for more pipe functionality
+Also check out help information for `pipe_del` and `pipe_auth` commands for more pipe functionality
 
 **NOTE:** The piper command does not do anything on it's own. It relies on the rest of the pipes command package '''
     def matches(self, message):
